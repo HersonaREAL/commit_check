@@ -77,5 +77,5 @@ END {
     for (author in author_count) {
         print author_count[author], author
     }
-}' | sort -rn | head -n 100
+}' | sort -rn | head -n 20
 echo -e "${NC}"
